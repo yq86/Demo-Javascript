@@ -12,4 +12,4 @@
   
   In my [lesson 5](https://github.com/yq86/Demo-Javascript/tree/master/L5%20website%20Layout), I made a web page with 3 boxes in the middle and a joke in each as contents. 
   
-  In my [lesson 6]https://github.com/yq86/Demo-Javascript/tree/master/L6%20%E5%9B%9E%E5%BA%94%E5%BC%8F%E6%8E%92%E7%89%88%E8%AE%BE%E8%AE%A1), based on lesson 5, I learned about RWD(responsive web design), to suit phone screens. 
+  In my [lesson 6](https://github.com/yq86/Demo-Javascript/tree/master/L6%20%E5%9B%9E%E5%BA%94%E5%BC%8F%E6%8E%92%E7%89%88%E8%AE%BE%E8%AE%A1), based on lesson 5, I learned about RWD(responsive web design), to suit phone screens. 
