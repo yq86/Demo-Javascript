@@ -28,7 +28,7 @@
   
   In [lesson 14](https://github.com/yq86/Demo-Javascript/tree/master/L14%20Javascript%20%E5%87%BD%E5%BC%8F--%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8), some basic add up operations of functions. 
   
-   In [lesson 15](https://github.com/yq86/Demo-Javascript/tree/master/L15%20Javascript%20%E5%87%BD%E5%BC%8F--%E5%BB%B6%E7%94%B3%E6%A6%82%E5%BF%B5, some more basics about functions. 
+   In [lesson 15](https://github.com/yq86/Demo-Javascript/tree/master/L15%20Javascript%20%E5%87%BD%E5%BC%8F--%E5%BB%B6%E7%94%B3%E6%A6%82%E5%BF%B5), some more basics about functions. 
   
   
   
