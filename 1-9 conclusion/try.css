@@ -1,0 +1,51 @@
+body{margin:0;}
+
+.bighead{
+	background-color:#EC3511;text-align:center;padding:5px;color:white;
+	font-size:30px;font-weight:bold;
+}
+.content1 {
+	display:flex;justify-content:center;
+	flex-wrap:wrap;
+}
+.content1>.poem{
+	flex:none;width:220px;margin:10px;background-color:#F4FA58;font-size:20px;
+	padding:10px;
+}
+.content1>.joke{
+	flex:none;width:220px;margin:10px;background-color:#8181F7;font-size:20px;
+	padding:10px;
+}
+.content1>.song{
+	flex:none;width:220px;margin:10px;background-color:#81F7D8;font-size:20px;
+	padding:10px;
+}
+.content1>.question{
+	flex:none;width:220px;margin:10px;background-color:#D8CEF6;font-size:20px;
+	padding:10px;
+}
+.tt {
+	text-align:center;font-size:20px;font-weight:bold;padding:10px;padding-top:0px;
+}
+.content2 {
+	display:flex;justify-content:center;
+	flex-wrap:wrap;
+}
+table {
+	width:450px;margin:20px;border-collapse:collapse;
+}
+td {
+	border-bottom:1px solid black;padding:5px;
+} 
+tr:nth-child(1){
+	background-color:#0B3861;color:white;font-size:20px;
+}
+tr:nth-child(even){
+	background-color:#BDBDBD;
+}
+@media (max-width:1200px){
+	.content{width:45%}
+	}
+@media (max-width:500px){.
+	content{width:90%}
+}

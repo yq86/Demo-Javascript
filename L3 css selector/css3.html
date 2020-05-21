@@ -1,0 +1,62 @@
+ <!--DOCTYPE html-->
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>css 选择器 详细学习</title>
+<style type="text/css">
+/* 标签名称选择器 */
+body{
+	font-size:16px;font-family:DejaVu Serif
+}
+h3{
+	font-size:20px;text-decoration:underline
+}
+/* class 选择器 */
+div.content{
+	border:1px dashed grey;padding:10px;width:650px
+}
+/* id 选择器 */
+#btn{
+	border:1px solid #88888888;
+	background-color:#ffffff;padding:5px
+	
+}
+/* 虚拟选择器 搭配其他选择器使用*/
+/* :hover 虚拟选择器 鼠标移到目标时 */
+	#btn:hover{
+	background-color:#9bbb59
+}
+/* :focus 虚拟选择器 鼠标取得焦点时 */
+	input:focus{
+	border:2px solid #bd0000
+}
+/* 阶层式选择器 */
+	.links a{
+	color:#ff0090
+}
+.books a{
+	color:#d3b9a3
+}
+</style>
+</head>
+<body>
+	<h3>Movies</h3>
+		<div class="content">
+			Today we might gonna get some information about movies, but I am just writing around so there is actually no information about movies
+		</div>
+	<h3>Links I Use a lot</h3>
+		<ul class="links">
+			<li><a href="https://www.google.com/">Google</a></li>
+			<li><a href="https://www.baidu.com/">Baidu</a></li>
+		</ul>
+	<h3>Books on Line</h3>
+		<ul class="books">
+			<li><a href="https://www.amazon.fr/Three-Body-Problem-Cixin-Liu/dp/0765377063">The Three-Body Problem<a></li>
+			<li><a href="https://www.amazon.fr/Dark-Forest-Cixin-Liu-ebook/dp/B00U7G0UYI/ref=pd_sbsd_14_1/260-0979478-8706745?_encoding=UTF8&pd_rd_i=B00U7G0UYI&pd_rd_r=a19ac117-1ad1-49ee-884f-fe1fac6aa8cd&pd_rd_w=W1AUb&pd_rd_wg=htkdC&pf_rd_p=4c6e2f21-abb9-4453-8e09-526238e25516&pf_rd_r=DM7VX2Q1CKKYFN73PXPP&psc=1&refRID=DM7VX2Q1CKKYFN73PXPP">The Dark Forest<a></li>
+		</ul>
+	<h3>Message Me</h3>
+	 <div class="content">
+		input your love here<input type="txt"/> <button id="btn">send</button>
+	 </div>
+</body>
+</html>

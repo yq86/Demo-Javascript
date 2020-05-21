@@ -1,0 +1,37 @@
+body{margin:0px;}
+/* nav 样式设定*/
+nav{display:flex;}
+nav>.logo{
+	flex:none;width:100px;
+	background-color:#ffcccc; text-align:center;
+}
+nav>.menu{
+	flex:auto; /* 尽量把容器的空间张满 */
+	background-color:#ccccff; text-align:center;
+}
+nav>.user{
+	flex:none;width:100px; /* 没有弹性 显示为固定尺寸100px */
+	background-color:#ccffcc; text-align:center;
+}
+/* main 样式设定 */
+main{/* 容器 justify-content:flex-start;justify-content:flex-end;*/
+	display:flex;flex-wrap:wrap;
+	justify-content:center;
+	align-items:stretch;/*(stretch,center,flex-start,flex-end)*/
+	background-color:#cccccc;
+}
+main>.item{
+	flex:none;/* none 代表本项目无法自动缩放 显示为设定尺寸300px */
+	width:270px; margin:10px;
+	background-color:#ffcccc;
+}
+@media (max-width:1200px){
+	main>.item{
+		width:45%;
+	}	
+}
+@media (max-width:500px){
+	main>.item{
+		width:90%;
+	}
+}

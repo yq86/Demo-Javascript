@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"></meta>
+<title>Javascript</title>
+<script type="text/javascript">
+//内建函式
+//alert("hello world");
+//函式的基础
+//设计阶段
+/*
+function test(){//自几设计的函式 test
+	//函式的本体
+	alert("hello")
+}
+
+//呼叫/使用阶段
+test();//呼叫函式
+*/
+/*
+function say(msg){
+	alert(msg)
+}
+say("who is it")
+say("2020 starts badly")
+*/
+/*
+function add(n1,n2){
+	alert(n1+n2)
+}
+add(12,13)
+add(1,2)
+*/
+
+/*
+function add(n1,n2){
+	alert(n1+n2)
+}
+var result=add(12,13)// add(12,13) 在程式外部未被定义 所有是 undefined，所有result 也是undefined，所以会印出 undefined
+alert(result)
+*/
+
+/*
+var result="add(12,13)"
+alert(result)
+*/
+
+/*
+function add(n1,n2){
+	alert(n1+n2);
+	return;// return 后什么都没写 所以会回传 undefined
+}
+var result=add(12,13);
+alert(result);
+*/
+
+/*
+function add(n1,n2){
+	alert(n1+n2);
+	return 50;
+}
+var result=add(12,13);
+alert(result);
+*/
+
+/*
+function add(n1,n2){
+	alert(n1+n2);
+	return n1+n2;// 或者写 return (n1+n2)
+}
+var result=add(12,13)*add(11,21)
+alert(result);
+*/
+
+//整合范例
+/*
+var sum=0;
+var n=1;
+while(n<=10){
+	sum+=n;
+	n++;
+}
+alert(sum)
+*/
+
+/*
+function final(){
+	var sum=0;
+	var n=1;
+	while(n<=10){
+		sum+=n;
+		n++;
+	}
+	alert(sum);
+}
+final();
+*/
+
+
+function final(max){
+	sum=0;
+	n=1;
+	while(n<=max){
+		sum+=n;
+		n++;
+	}
+	alert(sum);
+	return sum;
+}
+result=final(10)*final(10);
+alert(result);
+
+
+/*
+function getsum(max){
+	sum=0;
+	n=1;
+	while(n<=max){
+		sum+=n;
+		n++;
+	}
+	alert(sum);
+	return sum;
+}
+var result=getsum(10)+getsum(10);
+alert(result);
+*/
+</script>
+</head>
+<body>
+</body>
+</html>

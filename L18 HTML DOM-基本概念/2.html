@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM</title>
+<script type="text/javascript">
+//alert(window.screen.width+"x"+window.screen.height);
+function echange(){
+//	window.document.body.innerHTML="HEHEHEHE";
+	var spanObj=window.document.getElementById("adj");
+	spanObj.innerHTML="horrible";
+	spanObj.style.color="red";
+	spanObj.style.fontWeight="bold"; // javascript 写法 fontWeight; css 写法 font-weight;
+	spanObj.display="none"; // 把内容藏起来
+
+}
+
+
+
+</script>
+</head>
+<body>
+	<div>
+		What a <span id="adj">good</span> day!
+	</div>
+	<button onclick="echange()">change</button>
+</body>
+</html>

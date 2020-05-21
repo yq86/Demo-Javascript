@@ -1,0 +1,62 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>CSS选择器-详细介绍</title>
+<style type="text/css">
+/* 标签名称选择器 */
+body{
+	font-size:16px;font-family:Cambra;
+}
+h3{
+	font-size:20px;text-decoration:underline;
+}
+/* class 选择器 */
+div.content{
+	padding:10px;border:1px dashed #888888;width:450px
+}
+/* id 选择器 */
+#btn{
+	border:1px solid #888888;
+	background-color:#ffffff;padding:5px;
+}
+/* 虚拟选择器:搭配其他选择器使用 */
+/* :hover 虚拟选择器: 鼠标移到目标山时 套用一组设定*/
+#btn:hover{
+	background-color:#FFA5A5
+}
+/* :focus 虚拟选择器: 当目标取得焦点时 套用一直设定 */
+input:focus{
+	border:2px solid #ff0000;
+}
+/* 阶层式选择器:搭配其他选择器使用 */
+.favorite a{
+	color:#0000ff
+}
+.books a {
+	color:#008800
+}
+</style>
+</head>
+<body>
+	<h3>Know You a Little</h3>
+	<div class="content">
+		Hello, time to let us know you a bit!
+	</div>
+	<h3>My Favorite Links</h3>
+		<ul class="favorite">
+			<li><a href="https://www.google.com/">Google</a></li>
+			<li><a href="https://www.baidu.com/">Baidu</a></li>
+			<li><a href="https://www.wechat.com/en/">Weichat</a></li>
+		</ul>
+	<h3>My Books</h3>
+		<ul class="books">
+			<li><a href="https://www.gushiwen.org/guwen/lunyu.aspx">论语</a></li>
+			<li><a href="http://www.shicimingju.com/chaxun/zuozhe/13046.html">诗经</a></li>
+		</ul>
+	<h3>Contact Me</h3>	
+		<div class="content">
+			Please input your message here<input type="text"/> <button id="btn">send</button>
+		</div>
+</body>
+</html>

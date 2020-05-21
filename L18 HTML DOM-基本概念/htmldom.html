@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML DOM</title>
+<script type="text/javascript">
+// alert(window.screen.width+"x"+window.screen.height);
+
+function Change(){
+//	window.document.body.innerHTML="hello world";
+	var spanObj=window.document.getElementById("action");
+	spanObj.innerHTML="buy";
+	spanObj.style.color="green";
+	spanObj.style.fontWeight="bold";
+    spanObj.style.display="none";
+}
+
+
+</script>
+</head>
+<body>
+	<div>
+	Feel like to go to <span id="action">see</span> a movie.
+	</div>
+	<button  onclick="Change();">change</button>
+	
+</body>
+</html>

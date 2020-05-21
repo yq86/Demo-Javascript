@@ -1,0 +1,60 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>CSS选择器-详细介绍</title>
+<style type="text/css">	
+/* 标签名称选择器 */
+body{
+	font-size:16px;font-family:Cambra;		
+}
+h3{
+	font-size:20px;text-decoration:underline;
+}
+/* class 选择器 */
+div.content{
+	padding:5px;border:1px dashed #888888;width:500px;
+}
+/* id 选择器 */
+#btn{
+	border:1px solid #888888;
+	padding:6px;background-color:#ffffff
+}
+/* 虚拟选择器 搭配其他选择器使用 */
+/* :hover 虚拟选择器 鼠标移到目标时 套用一组设定*/
+#btn:hover{
+	background-color:#f6cfca
+}
+/* :focus 虚拟选择器 鼠标取得焦点时 套用一组设定 */
+input:focus{
+	border:2px solid #bd0000
+}
+/* 层级式选择器 搭配其他选择器使用 */
+.links a{
+	color:#00ffff
+}
+.books a{
+	color:#ff3300
+</style>
+</head>
+<body>
+	<h3>古人云</h3>
+		<div class="content">
+			一日之计在于晨, 一年之计在于春.
+		</div>
+	<h3>My Favorite Links</h3>
+		<ul class="links">
+			<li><a href="https://www.google.com/">Google</a></li>
+			<li><a href="https://www.baidu.com/">Baidu</a></li>
+		</ul>
+	<h3>Books I Like</h3>
+		<ul class="books">
+			<li><a href="https://www.diyifanwen.com/tool/dizigui/">弟子规</a></li>
+			<li><a href="http://www.guoxuemeng.com/">易经</a></li>
+		</ul>
+	<h3>联系一下吧</h3>
+		<div class="content">
+			Please input your message here<input type="text"></input> <button id="btn">Send</button>
+		</div>
+</body>
+</html>

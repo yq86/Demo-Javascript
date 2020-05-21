@@ -1,0 +1,32 @@
+body{margin:0px;}
+/* nav 样式设定*/
+nav{display:flex;}
+nav>.logo{
+
+	flex:none; /* 没有弹性 固定尺寸*/
+	width:100px;
+	background-color:#2980B9; 
+}
+nav>.menu{
+	flex:auto; /*尽量把空间张满*/
+	background-color:#E74C3C;
+}
+nav>.user{
+	flex:none; /* 没有弹性 固定尺寸*/
+	width:100px;
+	background-color:#229954;
+}	
+/* main 样式设定 */
+main{/* 容器 justify-content:(center,flex-start,flex-end)*/
+	 /* align-items:(stretch,center,flex-start,flex-end)*/
+	 /* justify-content 和 align-items 是专门配合 flex 使用的功能 */
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#D5DBDB;
+}
+main>.item{
+	flex:none;
+	width:300px;margin:10px;
+	background-color:#D2B4DE;
+}
