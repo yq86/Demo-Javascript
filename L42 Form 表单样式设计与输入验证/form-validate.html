@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>form 表单设计验证</title>
+<style type="text/css">
+form{
+	line-height:2em;
+}
+form>input,form>select{
+	padding:5px 10px; border:1px solid #888888; border-radius:5px
+}
+form>.ok{
+	color:#008800
+}
+form>input:valid+.ok{
+	display:inline
+}
+form>input:invalid+.ok{
+	display:none
+}
+
+// pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[~!@#$%^&*_.]).{4,12}" 
+// pattern="正规表示式 Regular Expression" 
+
+</style>
+</head>
+<body>
+	<h3>注册账号</h3>
+	<form onsubmit="alert('表单送出')">
+		账号:<input type="text" required placeholder="4~12英数字特殊符号" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[~!@#$%^&*_.]).{4,12}" />
+			<span class="ok">ok</span><br/>
+		密码:<input type="password" required />
+			<span class="ok">ok</span><br/>
+		邮件:<input type="email" required />	
+			<span class="ok">ok</span><br/>
+		电话:<input type="text" pattern="[0-9]{4,10}"/><br/>	
+		性别:
+			男<input type="radio" name="gender" value="male" required />
+			女<input type="radio" name="gender" value="female" required /><br/>
+			
+		生日: <select required >
+			<option value="">出生年</option>
+			<option value="1999">1999</option>
+			<option value="1998">1998</option>
+		</select><br/>	<br/>
+		<input type="submit" value="送出资料" />	
+	</form>
+</body>
+</html>
+
+
+
+
+

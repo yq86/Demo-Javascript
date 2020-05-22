@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>fade in and fade out</title>
+<script type="text/javascript">
+window.onload=function(){
+	var box=document.getElementById("box");
+//	box.style.opacity=1;
+	box.addEventListener("mouseover", function(){
+		box.style.opacity=1 // 淡入
+		box.style.backgroundColor="green"
+	})	
+	box.addEventListener("mouseout", function(){
+		box.style.opacity=0.3 // 淡出
+		box.style.backgroundColor="red"
+	})	
+}
+</script>
+<style type="text/css">
+.box{
+width:200px;height:200px;background-color:red;opacity:0.3;
+transition:opacity 2s,background-color 2s;
+/* transition监控opacity属性 一旦我们用javascript 对opacity进行设定transiton 自动渐变处理 */
+}
+</style>
+</head>
+<body>
+	<div id="box" class="box"></div>
+</body>
+</html>

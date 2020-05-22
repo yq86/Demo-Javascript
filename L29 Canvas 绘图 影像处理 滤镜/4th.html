@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>颜色反转</title>
+<script type="text/javascript">
+var cvs,ctx;
+window.onload=function(){
+	cvs=document.getElementById("cvs");
+	ctx=cvs.getContext("2d");
+	var img=new Image();
+	img.src="he.jpg";
+	img.onload=function(){
+		ctx.drawImage(this,0,0,cvs.width,cvs.height);
+	}	
+}
+function enchange(){
+	var pixels=ctx.getImageData(0,0,cvs.width,cvs.height)
+	var data=pixels.data;
+	for(var i=0;i<data.length;i+=4){
+	data[i]=255-data[i];
+	data[i+1]=255-data[i+1];
+	data[i+2]=255-data[i+2];	
+	}
+	ctx.putImageData(pixels,0,0)
+}
+
+</script>
+</head>
+<body>
+	
+<div><button onclick="enchange()">点我反转</button></div>
+<br/>		
+<canvas id="cvs"; width=600px; height=600px; style="border:1px solid #000000";></canvas>
+	
+</body>
+</html>

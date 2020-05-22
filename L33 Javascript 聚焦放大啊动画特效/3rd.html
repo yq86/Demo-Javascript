@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>FD</title>
+<script type="text/javascript">
+var box,styles,size,dh;
+function fd(){
+	box=document.getElementById("box");
+	styles=window.getComputedStyle(box);
+	size=styles.getPropertyValue("width");
+	size=parseInt(size);
+	dh=window.setInterval(function(){
+		if(size>=200){
+			window.clearInterval(dh);
+		}
+		size++;
+		box.style.width=size+"px";
+		box.style.height=size+"px";
+	
+	},20);
+}
+
+function sx(){
+		var xx=window.setInterval(function(){
+		if(size<=50){
+			window.clearInterval(xx);
+		}
+		size--;
+		box.style.width=size+"px";
+		box.style.height=size+"px";
+	
+	},20)
+
+}
+
+</script>
+<style type="text/css">
+.box{
+width:50px;height:50px;background-color:red;position:fixed;top:0;right:0;
+}
+</style>
+</head>
+<body>
+	<div id="box" class="box" onclick="fd()"></div>
+	<button onclick="sx()">Click Me</button>
+</body>
+</html>

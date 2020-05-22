@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>DH</title>
+<script	type="text/javascript">
+function shine(){
+	var anim=document.getElementById("anim")
+	anim.classList.add("effect");
+}
+</script>
+<style type="text/css">
+.effect{animation:blink 1s infinite}
+
+@keyframes blink{
+	0%{opacity:0}
+	50%{opacity:1}
+	100%{opacity:0}
+
+
+}
+</style>
+</head>
+<body>
+	<div id="anim" style="color:red">let me shine</div>
+	<button onclick="shine()">Click me</button>
+</body>
+
+</html>

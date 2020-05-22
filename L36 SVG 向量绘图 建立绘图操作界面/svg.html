@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="uft-8"/>
+<title>使用 JS 建立向量图</title>
+<script type="text/javascript">
+var svg;
+window.onload=function(){
+	svg=document.getElementById("svg");
+	svg.addEventListener("mousedown", mouseDownSvg);
+}
+function mouseDownSvg(e){
+	var x=e.clientX;
+	var y=e.clientY;
+	var bounding=this.getBoundingClientRect();
+	x=x-bounding.top;
+	y=y-bounding.left;
+	var rect=createSvgElement("rect",{
+	"x":x,"y":y,"fill":"red","width":50,"height":50
+	})
+	svg.appendChild(rect)
+}
+function createSvgElement(tagName,attrs){
+	var element=document.createElementNS("http://www.w3.org/2000/svg", tagName);
+	for(var name in attrs){
+		element.setAttribute(name,attrs[name]);
+	}
+	return element;
+}
+</script>
+</head>
+<body>
+	<svg id="svg" width=650 height=650 style="border:1px solid black">
+<!--	http://www.w3.org/2000/svg
+		<line x1=50 y1=50 x2=450 y2=450 stroke="red" stroke-width=3 />
+		<circle cx=250 cy=60 r=50 fill="white" stroke="gold" />
+		<rect x=280 y=120 width=150 height=80 fill="yellow" stroke="red" />
+		<polygon points="300 250 380 250 330 350" fill="green" />
+		<text x=400 y=400 fill="blue" font-size=50 >hello world</text>
+-->	
+		<text>hello world</text>
+	</svg>
+</body>
+</html>

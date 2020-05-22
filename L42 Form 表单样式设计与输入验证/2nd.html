@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1" />
+<title>表单验证</title>
+<style type="text/css">
+form{
+	line-height:2em;
+}
+input,select{
+	padding:5px; border:1px solid #888888; border-radius:5px
+}
+form>input:valid+.ok{
+	display:inline
+}
+form>input:invalid+.ok{
+	display:none
+}
+</style>
+</head>
+<body>
+	<h3>注册账户</h3>
+	<form onsubmit="alert('form sent')">
+	账号:<input type="text" required placeholder="4~12个英数字" pattern="[0-9a-zA-Z]{4,12}"></input>
+		<span class="ok">ok</span><br/>
+	密码:<input type="password" required pattern="[0-9]{8,10}"></input>
+		<span class="ok">ok</span><br/>
+	电邮:<input type="email" required ></input>
+		<span class="ok">ok</span><br/>
+	电话:<input type="text" pattern="[0-9]{8,10}"></input><br/ >
+		
+	性别:
+		男<input type="radio" name="gender" value="male" required ></input>
+		女<input type="radio" name="gender" value="female" required ></input><br/>
+	生日:<select required>
+			<option value="">出生年</option>
+			<option value="1999">1999</option>
+			<option value="1998">1998</option>
+		</select><br/><br/>
+		<input type="submit" value="sent"></input>
+	</form>
+
+</body>
+</html>

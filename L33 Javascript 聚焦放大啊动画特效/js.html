@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>放缩</title>
+<script type="text/javascript">
+function show(){
+	var box=document.getElementById("box");
+	// 取得当前的尺寸设定
+	var styles=window.getComputedStyle(box);
+	var size=styles.getPropertyValue("width"); // return 50px
+	size=parseInt(size)
+	// 产生一个放大的动画特效
+	var animeID=window.setInterval (function(){ // setInterval 排程 第一个参数必须是函式 第二个参数是执行的间隔时间
+		if(size>=200){
+		window.clearInterval(animeID); 
+		return;
+		}
+		size++;
+		box.style.width=size+"px";		
+		box.style.height=size+"px";	
+	},20);// 每0,02秒执行一次我们提供的函式
+
+}
+</script>
+<style type="text/css">
+.box{width:50px;height:50px;background-color:red;
+position:fixed;top:0px;right:0px;
+}
+</style>
+</head>
+<body>
+	<div id="box" class="box" onclick="show()"></div>
+</body>
+</html>

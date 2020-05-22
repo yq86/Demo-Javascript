@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Canvas</title>
+<script type="text/javascript">
+window.onload=function(){
+	var cvs=document.getElementById("cvs");
+	var ctx=cvs.getContext("2d")
+	// fill 最后给坐标和大小才能全部正常显示		
+	ctx.globalAlpha=0.5;
+	ctx.fillStyle="red";
+	ctx.fillRect(50,50,100,100); // 前两个数字是坐标 后两个数字是大小
+	// stroke 最后给坐标和大小才能全部正常显示		
+	ctx.globalAlpha=1;
+	ctx.strokeStyle="green";
+	ctx.strokeRect(200,200,50,50);
+	// path 路径
+	ctx.beginPath();
+	ctx.moveTo(200,100);
+	ctx.lineTo(300,300);
+	ctx.closePath()
+	ctx.stroke()
+	//多边形
+	ctx.moveTo(300,300);
+	ctx.lineTo(300,450);
+	ctx.lineTo(500,280);
+	ctx.closePath()
+	ctx.fill()
+	
+	
+	
+	
+	
+};
+</script>
+</head>
+<body>
+<canvas id="cvs" width="800"; height="600"; style="border:1px solid black";></canvas>
+</body>
+</html>
