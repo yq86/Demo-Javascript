@@ -49,3 +49,33 @@
   In [lesson 24](https://github.com/yq86/Demo-Javascript/tree/master/L24%20JSON%20%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0), a bit of Json information. 
 
   In [lesson 25](https://github.com/yq86/Demo-Javascript/tree/master/L25%20Hoisting%20%E5%AE%A3%E5%91%8A%E6%8F%90%E5%8D%87), some understanding about hoisting. 
+  
+   In [lesson 26](https://github.com/yq86/Demo-Javascript-2/tree/master/L1%20CSS3%20entrance), some basic knowlages about CSS3 settings.
+
+ In [lesson 27](https://github.com/yq86/Demo-Javascript-2/tree/master/L2%20CSS3%20%E7%BA%BF%E6%80%A7%E8%BD%AC%E6%8D%A2%20%E4%BD%8D%E7%A7%BB%20%E7%BC%A9%E6%94%BE%20%E6%97%8B%E8%BD%AC%20%E6%AD%AA%E6%96%9C), transform of CSS3.
+
+In [lesson 28](https://github.com/yq86/Demo-Javascript-2/tree/master/L3%20Canvas%20%E7%BB%98%E5%9B%BE%20%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0), I had my first experience of canvas drawing.
+
+In [lesson 29](https://github.com/yq86/Demo-Javascript-2/tree/master/L4%20Canvas%20%E7%BB%98%E5%9B%BE%20%E5%BD%B1%E5%83%8F%E5%A4%84%E7%90%86%20%E6%BB%A4%E9%95%9C), I learned how to invert a image.
+
+In [lesson 30](https://github.com/yq86/Demo-Javascript-2/tree/master/L5%20Canvas%20%E7%BB%98%E5%9B%BE%20%E6%A1%A3%E6%A1%88%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA), I learned how to load and save a inverted image.
+
+ Lesson 31 contains a video which is too big to upload here so I deleted it.
+ 
+In [lesson 31](https://github.com/yq86/Demo-Javascript-2/tree/master/L7%20CSS3%20animation%20%E5%9F%BA%E6%9C%AC%E5%8A%A8%E7%94%BB%E7%89%B9%E6%95%88), it is about the blink effects.
+
+In [lesson 32](https://github.com/yq86/Demo-Javascript-2/tree/master/L8%20CSS3%20transition%20%E6%B7%A1%E5%85%A5%E6%B7%A1%E5%87%BA%E7%89%B9%E6%95%88), it is about the fade in and fade out effects.
+
+In [lesson 33](https://github.com/yq86/Demo-Javascript-2/tree/master/L9%20Javascript%20%E8%81%9A%E7%84%A6%E6%94%BE%E5%A4%A7%E5%95%8A%E5%8A%A8%E7%94%BB%E7%89%B9%E6%95%88), it is about amplification but I wanna make it better.
+
+In [lesson 34](https://github.com/yq86/Demo-Javascript-2/tree/master/L10%20SVG%20%E5%90%91%E9%87%8F%E7%BB%98%E5%9B%BE%20%E5%9F%BA%E6%9C%AC), cool SVG drawing basics.
+
+In [lesson 35](https://github.com/yq86/Demo-Javascript-2/tree/master/L11%20SVG%20%E5%90%91%E9%87%8F%E7%BB%98%E5%9B%BE%20JS%20%E5%8A%A8%E6%80%81%E7%BB%98%E5%88%B6%E5%9B%BE%E5%BD%A2), SVG drawing by javascript.
+
+In [lesson 36](https://github.com/yq86/Demo-Javascript-2/tree/master/L12%20SVG%20%E5%90%91%E9%87%8F%E7%BB%98%E5%9B%BE%20%E5%BB%BA%E7%AB%8B%E7%BB%98%E5%9B%BE%E6%93%8D%E4%BD%9C%E7%95%8C%E9%9D%A2), more SVG drawing by javascript.
+
+In [lesson 37](https://github.com/yq86/Demo-Javascript-2/tree/master/L13%20HTML5%20%E8%AF%AD%E6%84%8F%E6%A0%87%E7%AD%BE%E5%AD%A6%E4%B9%A0), semantic tags.
+
+In [lesson 38](https://github.com/yq86/Demo-Javascript-2/tree/master/L14%20%E5%87%BD%E5%BC%8F%E7%9A%84%E7%BB%91%E5%AE%9A%E7%89%A9%E4%BB%B6%20this%20%E5%9F%BA%E6%9C%AC%E7%AF%87), introductions about "this" of functions.
+
+In [lesson 39](https://github.com/yq86/Demo-Javascript-2/tree/master/L15%20%E5%87%BD%E5%BC%8F%E7%9A%84%E7%BB%91%E5%AE%9A%E7%89%A9%E4%BB%B6%20this%20%E8%BF%9B%E9%98%B6%E7%AF%87), dvanced introductions about "this" of functions.
