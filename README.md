@@ -1,22 +1,22 @@
 # My first coding journal 
 
- In [lesson 1](https://github.com/yq86/Demo-Javascript/blob/master/L1%20html%20basic/last.html), I learned how to add a photo, some links and created a table in HTML.
+ In [lesson 01](https://github.com/yq86/Demo-Javascript/blob/master/L1%20html%20basic/last.html), I learned how to add a photo, some links and created a table in HTML.
 
- In [lesson 2](https://github.com/yq86/Demo-Javascript/blob/master/L2%20css%20baisc/thirdtry.html), I learned the defination of class selector and added some content and a box on my page by writing CSS.
+ In [lesson 02](https://github.com/yq86/Demo-Javascript/blob/master/L2%20css%20baisc/thirdtry.html), I learned the defination of class selector and added some content and a box on my page by writing CSS.
  
-  In [lesson 3](https://github.com/yq86/Demo-Javascript/blob/master/L3%20css%20selector/css3.html), I learned some more about css selectors.
+  In [lesson 03](https://github.com/yq86/Demo-Javascript/blob/master/L3%20css%20selector/css3.html), I learned some more about css selectors.
 
-  In [lesson 4](https://github.com/yq86/Demo-Javascript/tree/master/L4%20css%20form), I made a relatively nicer table.
+  In [lesson 04](https://github.com/yq86/Demo-Javascript/tree/master/L4%20css%20form), I made a relatively nicer table.
   
-  In [lesson 5](https://github.com/yq86/Demo-Javascript/tree/master/L5%20website%20Layout), I made a web page with 3 boxes in the middle and a joke in each as contents. 
+  In [lesson 05](https://github.com/yq86/Demo-Javascript/tree/master/L5%20website%20Layout), I made a web page with 3 boxes in the middle and a joke in each as contents. 
   
-  In [lesson 6](https://github.com/yq86/Demo-Javascript/tree/master/L6%20%E5%9B%9E%E5%BA%94%E5%BC%8F%E6%8E%92%E7%89%88%E8%AE%BE%E8%AE%A1), based on lesson 5, I learned about RWD(responsive web design), to suit phone screens. 
+  In [lesson 06](https://github.com/yq86/Demo-Javascript/tree/master/L6%20%E5%9B%9E%E5%BA%94%E5%BC%8F%E6%8E%92%E7%89%88%E8%AE%BE%E8%AE%A1), based on lesson 5, I learned about RWD(responsive web design), to suit phone screens. 
 
-  In [lesson 7](https://github.com/yq86/Demo-Javascript/tree/master/L7%20CSS3%20Flexbox%20%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0), some simple experimment about flexbox. 
+  In [lesson 07](https://github.com/yq86/Demo-Javascript/tree/master/L7%20CSS3%20Flexbox%20%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0), some simple experimment about flexbox. 
   
-  In [lesson 8](https://github.com/yq86/Demo-Javascript/tree/master/L8%20CSS3%20Flexbox%20%E4%B8%8ERWD%E5%9B%9E%E5%BA%94%E5%BC%8F%E8%AE%BE%E8%AE%A1), there is a conbine of lesson 6 and lesson 7.
+  In [lesson 08](https://github.com/yq86/Demo-Javascript/tree/master/L8%20CSS3%20Flexbox%20%E4%B8%8ERWD%E5%9B%9E%E5%BA%94%E5%BC%8F%E8%AE%BE%E8%AE%A1), there is a conbine of lesson 6 and lesson 7.
   
-  In [lesson 9](https://github.com/yq86/Demo-Javascript/tree/master/L9%20Javascript%20%E7%AE%80%E4%BB%8B),I had my first javascript alerts.
+  In [lesson 09](https://github.com/yq86/Demo-Javascript/tree/master/L9%20Javascript%20%E7%AE%80%E4%BB%8B),I had my first javascript alerts.
    
   In [lesson 10](https://github.com/yq86/Demo-Javascript/tree/master/L10%20Javascript%20%E5%8F%98%E6%95%B0%E4%B8%8E%E8%BF%90%E7%AE%97%E5%AD%90), I learned the defination of variables and operators.
    
@@ -77,3 +77,9 @@ In [lesson 37](https://github.com/yq86/Demo-Javascript-2/tree/master/L13%20HTML5
 In [lesson 38](https://github.com/yq86/Demo-Javascript-2/tree/master/L14%20%E5%87%BD%E5%BC%8F%E7%9A%84%E7%BB%91%E5%AE%9A%E7%89%A9%E4%BB%B6%20this%20%E5%9F%BA%E6%9C%AC%E7%AF%87), introductions about "this" of functions.
 
 In [lesson 39](https://github.com/yq86/Demo-Javascript-2/tree/master/L15%20%E5%87%BD%E5%BC%8F%E7%9A%84%E7%BB%91%E5%AE%9A%E7%89%A9%E4%BB%B6%20this%20%E8%BF%9B%E9%98%B6%E7%AF%87), dvanced introductions about "this" of functions.
+
+In [lesson 40](https://github.com/yq86/Demo-Javascript/tree/master/L40%20%E7%BD%91%E9%A1%B5%E5%8E%9F%E4%BB%B6%20%E7%94%BB%E9%9D%A2%E5%8D%B7%E8%BD%B4%E6%8E%A7%E5%88%B6), I learned how to make a simple automatic scroll.
+
+In [lesson 41](https://github.com/yq86/Demo-Javascript/tree/master/L41%20Form%20%E8%A1%A8%E5%8D%95%E6%A0%B7%E5%BC%8F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E8%BE%93%E5%85%A5%E9%AA%8C%E8%AF%81), I learned how to make simple registration forms.
+
+In [lesson 42](https://github.com/yq86/Demo-Javascript/tree/master/L42%20%E7%AE%80%E6%98%93%E8%B7%B3%E5%87%BA%E5%BC%8F%E7%BD%91%E9%A1%B5%E5%AF%B9%E8%AF%9D%E6%A1%86), I learned how to make a poping out info window by clicking on a button.
