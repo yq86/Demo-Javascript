@@ -59,8 +59,6 @@ In [lesson 28](https://github.com/yq86/Demo-Javascript-2/tree/master/L3%20Canvas
 In [lesson 29](https://github.com/yq86/Demo-Javascript-2/tree/master/L4%20Canvas%20%E7%BB%98%E5%9B%BE%20%E5%BD%B1%E5%83%8F%E5%A4%84%E7%90%86%20%E6%BB%A4%E9%95%9C), I learned how to invert a image.
 
 In [lesson 30](https://github.com/yq86/Demo-Javascript-2/tree/master/L5%20Canvas%20%E7%BB%98%E5%9B%BE%20%E6%A1%A3%E6%A1%88%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA), I learned how to load and save a inverted image.
-
- Lesson 31 contains a video which is too big to upload here so I deleted it.
  
 In [lesson 31](https://github.com/yq86/Demo-Javascript-2/tree/master/L7%20CSS3%20animation%20%E5%9F%BA%E6%9C%AC%E5%8A%A8%E7%94%BB%E7%89%B9%E6%95%88), it is about the blink effects.
 
