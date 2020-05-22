@@ -77,3 +77,9 @@ In [lesson 37](https://github.com/yq86/Demo-Javascript-2/tree/master/L13%20HTML5
 In [lesson 38](https://github.com/yq86/Demo-Javascript-2/tree/master/L14%20%E5%87%BD%E5%BC%8F%E7%9A%84%E7%BB%91%E5%AE%9A%E7%89%A9%E4%BB%B6%20this%20%E5%9F%BA%E6%9C%AC%E7%AF%87), introductions about "this" of functions.
 
 In [lesson 39](https://github.com/yq86/Demo-Javascript-2/tree/master/L15%20%E5%87%BD%E5%BC%8F%E7%9A%84%E7%BB%91%E5%AE%9A%E7%89%A9%E4%BB%B6%20this%20%E8%BF%9B%E9%98%B6%E7%AF%87), dvanced introductions about "this" of functions.
+
+In [lesson 40](https://github.com/yq86/Demo-Javascript/tree/master/L40%20%E7%BD%91%E9%A1%B5%E5%8E%9F%E4%BB%B6%20%E7%94%BB%E9%9D%A2%E5%8D%B7%E8%BD%B4%E6%8E%A7%E5%88%B6), I learned how to make a simple automatic scroll.
+
+In [lesson 41](https://github.com/yq86/Demo-Javascript/tree/master/L41%20Form%20%E8%A1%A8%E5%8D%95%E6%A0%B7%E5%BC%8F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E8%BE%93%E5%85%A5%E9%AA%8C%E8%AF%81), I learned how to make simple registration forms.
+
+In [lesson 42](https://github.com/yq86/Demo-Javascript/tree/master/L42%20%E7%AE%80%E6%98%93%E8%B7%B3%E5%87%BA%E5%BC%8F%E7%BD%91%E9%A1%B5%E5%AF%B9%E8%AF%9D%E6%A1%86), I learned how to make a poping out info window by clicking on a button.
