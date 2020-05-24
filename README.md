@@ -1,16 +1,16 @@
 # My first coding journal 
 
- In [lesson 01](https://github.com/yq86/Demo-Javascript/blob/master/L1%20html%20basic/last.html), I learned how to add a photo, some links and created a table in HTML.
+ In [lesson 01](https://github.com/yq86/Demo-Javascript/tree/master/L01%20html%20basic), I learned how to add a photo, some links and created a table in HTML.
 
- In [lesson 02](https://github.com/yq86/Demo-Javascript/blob/master/L2%20css%20baisc/thirdtry.html), I learned the defination of class selector and added some content and a box on my page by writing CSS.
+ In [lesson 02](https://github.com/yq86/Demo-Javascript/tree/master/L02%20css%20baisc), I learned the defination of class selector and added some content and a box on my page by writing CSS.
  
-  In [lesson 03](https://github.com/yq86/Demo-Javascript/blob/master/L3%20css%20selector/css3.html), I learned some more about css selectors.
+  In [lesson 03](https://github.com/yq86/Demo-Javascript/tree/master/L03%20css%20selector), I learned some more about css selectors.
 
-  In [lesson 04](https://github.com/yq86/Demo-Javascript/tree/master/L4%20css%20form), I made a relatively nicer table.
+  In [lesson 04](https://github.com/yq86/Demo-Javascript/tree/master/L04%20css%20form), I made a relatively nicer table.
   
-  In [lesson 05](https://github.com/yq86/Demo-Javascript/tree/master/L5%20website%20Layout), I made a web page with 3 boxes in the middle and a joke in each as contents. 
+  In [lesson 05](https://github.com/yq86/Demo-Javascript/tree/master/L05%20css%20webpage%20layout), I made a web page with 3 boxes in the middle and a joke in each as contents. 
   
-  In [lesson 06](https://github.com/yq86/Demo-Javascript/tree/master/L6%20%E5%9B%9E%E5%BA%94%E5%BC%8F%E6%8E%92%E7%89%88%E8%AE%BE%E8%AE%A1), based on lesson 5, I learned about RWD(responsive web design), to suit phone screens. 
+  In [lesson 06](https://github.com/yq86/Demo-Javascript/tree/master/L06%20css%20RWD%20layout), based on lesson 5, I learned about RWD(responsive web design), to suit phone screens. 
 
   In [lesson 07](https://github.com/yq86/Demo-Javascript/tree/master/L7%20CSS3%20Flexbox%20%E5%9F%BA%E6%9C%AC%E5%AD%A6%E4%B9%A0), some simple experimment about flexbox. 
   
