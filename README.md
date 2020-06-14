@@ -83,3 +83,14 @@ In [lesson 40](https://github.com/yq86/Demo-Javascript/tree/master/L40%20scroll)
 In [lesson 41](https://github.com/yq86/Demo-Javascript/tree/master/L41%20Form%20registration%20form), I learned how to make simple registration forms.
 
 In [lesson 42](https://github.com/yq86/Demo-Javascript/tree/master/L42%20simple%20poping%20window), I learned how to make a poping out info window by clicking on a button.
+
+In [lesson 43](https://github.com/yq86/Demo-Javascript/tree/master/L43%20CSS%20Grid%20Layout%20with%20Imge%20Span), I learned about grid layout.
+
+In [lesson 44](https://github.com/yq86/Demo-Javascript/tree/master/L44%20bgnrs%20HTML), it is like a review of html basics.
+
+In [lesson 45](https://github.com/yq86/Demo-Javascript/tree/master/L45%20bgnr%20CSS), it is like a review of css basics.
+
+In [lesson 46](https://github.com/yq86/Demo-Javascript/tree/master/L46%20JS%20Crash%20Course), it is like a review of js basics.
+
+In [lesson 47](https://github.com/yq86/Demo-Javascript/tree/master/L47%20flexbox), it is like a review of flex with more details.
+
