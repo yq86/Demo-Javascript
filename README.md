@@ -94,3 +94,4 @@ In [lesson 46](https://github.com/yq86/Demo-Javascript/tree/master/L46%20JS%20Cr
 
 In [lesson 47](https://github.com/yq86/Demo-Javascript/tree/master/L47%20flexbox), it is like a review of flex with more details.
 
+In [lesson 48](https://github.com/yq86/Demo-Javascript/tree/master/L48%20JavaScript%20Higher%20Order%20Functions%20%26%20Arrays), high order functions are really powerful and make things easier.
