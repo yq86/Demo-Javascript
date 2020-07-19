@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>记不得</title>
+<script type="text/javascript">
+
+
+/*
+function getData(){
+	var req=new XMLHttpRequest();
+	req.open("get","http://127.0.0.1/popular.html");
+	req.send();
+	req.onload=function(){
+		alert(this.responseText);
+	};
+};
+*/
+function getData(name){
+	
+	var req=new XMLHttpRequest();
+	req.open("get","http://127.0.0.1/"+name);
+	req.send();
+	req.onload=function(){
+		var content=document.getElementById("content");
+		content.innerHTML=this.responseText;
+	}
+}
+
+
+</script>
+</head>
+<body>
+	<span onclick="getData('popular.html')">popular</span>
+	<span onclick="getData('latest.html')">latest</span>
+	<div id="content"></div>
+</body>
+</html>

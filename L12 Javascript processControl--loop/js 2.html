@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Javascript</title>
+	<script type="text/javascript">
+/*
+	while(判断){
+		若判断的结果是正确的(true),执行大括号区块中的程式码
+		
+		程式码执行完毕，回到上方 while 的位置,做第二次判断
+		知道判断结果是错误的(false),才跳离整个回圈结构
+	}
+*/
+
+var sum=0;
+var n=1;
+while (n<=50){
+	sum+=n
+	n++;	
+}
+alert(sum)
+
+
+/*
+while(true){
+	alert("endless loop")
+}
+*/
+/*
+var n=0;
+while(n<=5){
+	n++;
+}
+alert(n)
+*/
+/*
+var sum=0;
+var n=1;
+while(n<=100){
+	sum=sum+n;
+	n++;
+}
+alert(sum)
+*/
+
+/*
+	for(初始区块;判断;回圈区块){
+	判断概念同 while 回圈
+	请在讲解中 注意 "初始区块" 与 "回圈区块" 的执行时机
+	}
+*/
+/*
+var sum=0;
+var n=1;
+for(;n<=100;){
+	sum=sum+n;
+	n++;
+}
+alert(sum)
+*/
+/*
+var sum=0;
+
+for(var n=1;n<=100;n++){
+	sum=sum+n;
+}
+alert(sum)
+*/
+/*
+	break;强制跳出回圈
+	continue;强制进行下一次的回圈	
+*/
+/*
+var n=0;
+while(n<100){
+	if(n==50){
+		break
+	}
+	n++;
+}
+alert(n)
+*/
+/*
+var n=0;
+while(n<100){
+	n++;
+	if(n==50){
+		break
+	}
+}
+alert(n)
+*/
+
+
+
+
+/*
+var x=0;
+for(var n=0;n<50;n++){
+	if(n%4==0){
+		continue
+	}	
+	x++;
+}
+alert(x)
+*/
+	</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ajax 标签选单</title>
+<script type="text/javascript">
+/*
+function getData(){
+	//XMLHttpRequest 物件专门用来和伺服器做连线
+	var req=new XMLHttpRequest();
+	req.open("get","http://127.0.0.1/popular.html"); //只是设定连线 还没有送出	
+	req.send();
+	req.onload=function(){ //load 事件 侦测连线的状态结束 意思就是当连线送出并通过网络连接伺服器并成功的取回资料后会触发load事件 触发load事件就代表连线完成
+		alert(this.responseText);// 取得伺服器的回应responseText, 它是物件的成员
+	};
+	
+}
+*/
+
+function getData(name){
+	var req=new XMLHttpRequest();
+	req.open("get","http://127.0.0.1/"+name)
+	req.send();
+	req.onload=function(){
+		var content=document.getElementById("content");
+		content.innerHTML=this.responseText;
+	}
+}
+
+
+</script>
+</head>
+<body onload="getData('popular.html')">
+	<div> 
+		<span onclick="getData('popular.html');">热门</span>
+		<span onclick="getData('latest.html')">最新</span>
+	</div>
+	<hr/>
+	<div id="content"></div>
+</body>
+</html>

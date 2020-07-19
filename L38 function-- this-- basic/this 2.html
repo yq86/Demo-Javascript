@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>函式的绑定物件 this 基本篇</title>
+</head>
+<body>
+	<script type="text/javascript">
+	// this 代表函式的[绑定物件]，通常在函式中使用
+	// 不同的程式码脉络下，[绑定物件]代表不同的东西
+/*	
+	// 情况一 独立的函式
+	function test(){
+		console.log(this)//独立的函式中 this 就是 window 物件
+		console.log(this.innerWidth);//印出视窗宽度
+	}	
+	test()
+*/
+
+/*	
+	// 情况二 物件的方法
+	let obj={ // json 语法建立函式
+		x:2,
+		test:function(){
+			console.log(this) // 物件的方法中 this 就是方法所属的物件本身
+		}	
+	}
+	obj.test();
+*/
+
+/*	
+	// 情况三 事件处理函式
+	document.addEventListener("click",function(){
+		console.log(this) // 事件处理函式中 this 就是触发(click)事件的对象物件 就是document整份网页，因为点击的是整份网页，所有this就是document
+		this.body.innerHTML="hello world" // this 就是 document
+	})
+*/	
+
+/*
+	// 情况四 建构函式(1)		
+	function Point(){
+		console.log(this) // this 就是浏览器自动帮我们建立好的空白物件		
+	}
+	new Point()
+*/
+
+/*	
+	// 情况四 建构函式(2)
+	function Point(){
+	console.log(this) // this 就是浏览器自动帮我们建立好的空白物件		
+	this.x=3;
+	this.y=4;
+	}
+	let p1=new Point()
+	console.log(p1)
+*/	
+	
+	</script>
+</body>
+</html>

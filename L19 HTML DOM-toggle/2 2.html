@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>选单闭合</title>
+<script type="text/javascript">
+/*
+function toggleMenu(){
+	var menu=document.getElementById("menu");
+	menu.style.display="none";
+}
+*/
+/*
+function toggleMenu(){
+	var menu=document.getElementById("menu");
+	if(menu.style.display=="none"){
+		menu.style.display="block";
+	}else{
+		menu.style.display="none";
+	}
+}
+*/	
+/*
+function toggleMenu(){
+	var menu=document.getElementById("menu");
+	menu.classList.toggle("hide");
+}
+*/
+
+function toggleMenu(number){
+	var menu=document.getElementById("menu"+number);
+	menu.classList.toggle("hide");
+}
+
+</script>
+<style type="text/css">
+.hide{display:none}
+</style>
+</head>
+<body>
+	<div onclick="toggleMenu(1)">选单标题1</div>
+	<ul id="menu1">
+		<li>项目1-1</li>
+		<li>项目1-2</li>
+		<li>项目1-3</li>
+	</ul>
+	<div onclick="toggleMenu(2)">选单标题2</div>
+	<ul id="menu2">
+		<li>项目2-1</li>
+		<li>项目2-2</li>
+		<li>项目2-3</li>
+	</ul>
+	<div onclick="toggleMenu(3)">选单标题3</div>
+	<ul id="menu3">
+		<li>项目3-1</li>
+		<li>项目3-2</li>
+		<li>项目3-3</li>
+	</ul>
+</body>
+</html>

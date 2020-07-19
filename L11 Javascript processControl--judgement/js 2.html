@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"></meta>
+<title>Javascript</title>
+<script type="text/javascript">
+/*
+	if(判断){
+		若判断的结果是正确的(true),则执行大括号区块中的的程式码。
+		反之(false)，则忽略此区块。
+	}
+*/
+/*
+if(true){
+	alert("hello")
+}
+if(4>3){
+	alert("4>3")
+}
+*/
+/*
+var money=prompt("取款数额:","100");
+if(money>10000){
+	alert("大金额请去柜台办理");
+}
+*/
+/*
+	if(判断){
+		若判断的结果是正确的(true),则执行大括号区块中的的程式码	。	
+	}else{
+		若判断是错误的(false),则执行 else 大括号区块中的程式码。
+	}
+*/
+/*
+var money=prompt("取款数额:","100");
+if(money>10000){
+	alert("大金额请去柜台办理");
+}else{
+	alert("请稍后 正在办理")
+}
+*/
+/*
+	if(判断一){
+		先做第一次判断，若正确(true), 执行此区块程式码。
+		若第一次判断错误(false)，继续进行下方 else if 的第二次判断。
+	}else if(判断二){
+		同上
+	}else{
+		若以上所有判断都错误(false)，则执行 else 区块中的程式码。
+	}
+*/
+/*
+var m=prompt("取款数额:","100");
+if(m>10000){
+	alert("大金额请去柜台办理");
+}else if(m>5000){
+	alert("你去柜台吧");
+}else{
+	alert("请稍等 正在给你数钱");
+}
+*/
+//范例
+var n1=prompt("请输入第一个数字:","");
+var n2=prompt("请输入第二个数字:","");
+// 使用者被要求做输入的时候 输入的数字是字串形态的 不是数字形态 资料形态的转换 需要把字串转换成数字
+n1=Number(n1)
+n2=Number(n2) 
+var op=prompt("请输入运算+,-,*或/:","");
+var result;
+if (op=="+"){
+	result=n1+n2;
+}else if(op=="-"){
+	result=n1+n2;nu
+}else if(op=="*"){
+	result=n1+n2;
+}else if(op=="/"){
+	result=n1+n2;
+}else{
+	result="不支持";
+}
+alert(result)
+
+
+</script>
+</head>
+<body>
+</body>
+</html>

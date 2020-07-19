@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>事件物件 event object</title>
+<script type="text/javascript">
+function init(){
+	var btn=document.getElementById("btn");
+	function handler(e){
+		alert(e.clientX+","+e.clientY);
+	};
+	btn.addEventListener("click",handler);
+	/*
+		1.使用者点击了按钮 触发了click事件	
+		2.浏览器主动收集和事件有关的资讯 并制造出 event object 事件物件(事件物件是浏览器主动制造的)
+			var eventobj=事件物件，
+		3.呼叫已经注册的事件处理器 (事件处理函式)
+		  handler(eventobj);//浏览器主动制造的事件物件必须通过参数传进事件处理器handler, 所以要设置一个参数e(或者任何名字)代表这个事件物件放进 function handler()的小括号里 也就是 function handler(e), 去触发handler工作
+	*/
+	document.addEventListener("keydown", function(a){// document上注册键盘事件 并提供一个匿名函式用来直接当作事件处理器,设置浏览器主动制造的事件物件参数为a
+		alert(a.keyCode);
+	});
+}
+
+
+
+</script>
+</head>
+<body onload="init();">
+	<button id="btn">Click</button>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>反转保存</title>
+<script type="text/javascript">
+var cvs,ctx;
+window.onload=function(){
+	cvs=document.getElementById("cvs");
+	ctx=cvs.getContext("2d");
+	/*
+	var img=new Image()
+	img.src="君子不器.jpg";
+	img.onload=function(){
+		ctx.drawImage(this,0,0,cvs.width,cvs.height)
+	}
+	*/	
+
+}
+
+function loadFile(input){
+	var file=input.files[0]; // input 物件下面的档案files files 是一个档案物件的阵列
+	var src=URL.createObjectURL(file);
+	var img=new Image();
+	img.src=src;
+	img.onload=function(){
+		ctx.drawImage(this,0,0,cvs.width,cvs.height)
+	}
+}
+
+
+function enchange(){
+	var pixels=ctx.getImageData(0,0,cvs.width,cvs.height);
+	var data=pixels.data;
+	for(var i=0;i<data.length;i+=4){
+		data[i]=255-data[i];
+		data[i+1]=255-data[i+1];
+		data[i+2]=255-data[i+2];
+	}
+	ctx.putImageData(pixels,0,0);
+}
+function saveFile(){
+	var link=document.getElementById("download");
+	link.download="image.jpg";
+	link.href=cvs.toDataURL("image/jpeg");
+	link.click()
+
+}
+
+</script>
+</head>
+<body>
+<div>
+	<input type="file"; onchange="loadFile(this)" ></input>
+	<button onclick="enchange()">点我变色</button>
+	<button onclick="saveFile()">保存图片</button>
+	<a id="download"></a>
+</div>
+<br/>
+<canvas id="cvs"; width=800px; height=600px; style="border:1px solid #000000"; ></canvas>
+</body>
+</html>

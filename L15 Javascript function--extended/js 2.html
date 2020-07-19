@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Javascript Function</title>
+<script type="text/javascript">
+// 函式的变形 函式是一种资料
+
+/*
+function add(n1,n2){
+	alert(n1+n2);
+}
+add(1,2);
+var test=add
+test(10,11)
+*/
+
+/* 新的写法 把函式当作资料放进变数里
+var add=function(n1,n2){
+	alert(n1+n2)
+}
+add(3,4)
+var test=add // test 代表 add 函式本身
+test(5,6)
+*/
+
+/*
+变数是数字就用数字的概念去工作; 是字串就用字串的概念去工作; 是函式就用函式的概念去工作;
+var x=3; // x 可以做加法 "x+3";但是不能被呼叫 "x()",因为它是数字;
+var x="string";// x 是字串所以不能做乘法 "x*3";但是可以做字串的串接"x+'hello'";
+var x=function(){alert("hello world");};// x 是函式所以不能做加法 "x+3";但是可以被呼叫 "x()";
+*/
+
+// 函式创造新的名称空间
+
+/* 
+var x=3;
+x=5; //这样写可以， 新的资料会覆盖原有资料
+*/
+/*
+var x=3;
+var x=5; // 程式错误 不能在同一个空间内有两个相同名称的变数
+function test(){
+	var y=5;
+	alert(x+y);
+}
+test();
+*/
+
+/*
+var x=3;
+function test(){
+	var y=5;
+	alert(x+y);
+}
+test();//呼叫程式里面 会先去程式里面搜索资料 x 和 y, y是5,搜不到x, 会去函式外面搜索,搜索到 x 是3;
+*/
+
+/*
+var x=3;
+function test(){
+	var y=5;
+	var x=6;
+	alert(x+y);  
+}
+test();// 呼叫程式内部,时会先去程式里面搜索资料, x 是6, y 是5, 最后印出结果11;
+*/
+
+/*
+var x=3; //全域空间, 全域变数;
+function test(){
+	var y=5; //区域空间, 区域变数;
+	var x=5;
+	alert(x+y);
+}
+alert(x+y);// 在程式外面呼叫, 会先去程式外面搜索资料 x 和 y, x 是5, y找不到,然后回去更外层搜索,搜不到, 程式错误, 无法印出结果;
+*/
+
+// 外部的程式码,不能使用内部的变数;
+
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>draw</title>
+<script>
+var svg;
+window.onload=function(){
+	svg=document.getElementById("svg");
+	var line=createSvgElement("line",{
+		"x1":50,"y1":50,
+		"x2":250,"y2":250,
+		"stroke":"red",	
+	})
+	svg.appendChild(line)
+	var circle=createSvgElement("circle",{
+		"cx":250,"cy":70,"r":50,
+		"fill":"orange","stroke":"red",		
+	})
+	svg.appendChild(circle)
+}
+function createSvgElement(tagName,attrs){
+	var element=document.createElementNS("http://www.w3.org/2000/svg",tagName);
+	for (var name in attrs){
+	element.setAttribute(name,attrs[name])	
+	}
+	return element;
+}
+</script>
+</head>
+
+<body>
+<svg id="svg" width=640 height=640 style="border:1px solid #888888"></svg>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>HTML 选单闭合操作</title>
+<script type="text/javascript">
+function toggleMenu(number){
+	var menu=document.getElementById("menu"+number); // 
+	menu.classList.toggle("hide")// toggle的意思就是 如果menu的class有设定hide,就会被切换成没有设置hide; 如果没有设置hide就会切换成有设置hide;
+/*	if(menu.style.display=="none"){// 目前是藏起来的状况 none:藏起来
+		menu.style.display="block";// 目前是秀出来的状况 block:恢复原状
+	}else{
+		on.style.display="none";
+	}*/
+}
+
+
+</script>
+<style type="text/css">
+.hide{display:none}
+</style>
+</head>
+<body>
+	<div onclick="toggleMenu(1)">选单的标题1</div>
+	<ul id="menu1" class="hide">
+		<li>选单1-1</li>
+		<li>选单1-2</li>
+		<li>选单1-3</li>
+	</ul>
+		<div onclick="toggleMenu(2)">选单的标题2</div>
+	<ul id="menu2">
+		<li>选单2-1</li>
+		<li>选单2-2</li>
+		<li>选单2-3</li>
+	</ul>
+		<div onclick="toggleMenu(3)">选单的标题3</div>
+	<ul id="menu3">
+		<li>选单3-1</li>
+		<li>选单3-2</li>
+		<li>选单3-3</li>
+	</ul>
+</body>
+</html>
+

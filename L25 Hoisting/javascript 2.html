@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>hoisting</title>
+<script type="text/javascript">
+/*
+var x; // 宣告变数  一般情况下是把变数写在最前面这是一个非常好的习惯
+x=10; // 给定初始资料
+alert(x); // 使用变数
+*/
+
+/* 
+x=10; // 给定初始资料;
+alert(x); // 使用变数;
+var x; // 宣告变数; javqscript里即使把宣告变数写在最后一排, javqscrip也会自动将变数提升到第一排然后开始工作, 这就叫 hoisting; 
+*/
+
+/*
+alert(x); // 使用变数;
+var x=10; //宣告变数的同时给定变数的资料; hoisting是宣告变数的提升不是给定初始资料动作的提升 所以它只会提升 "var x;",变成以下的样子:
+   ↓
+var x;
+alert(x);//现在的x是undefined, x的值10还没有给出, 所以会印出undefined;
+x=10;
+*/
+
+/*
+// 一般情况下这样写，先宣告函式再呼叫函式
+function test(){ // 宣告函式
+	alert("hello"); //
+}
+test(); // 呼叫函式
+*/
+
+/*
+// 因为javascript 会自动提升函式宣告 所以先写呼叫再写函式宣告也是可以的
+test(); // 呼叫函式
+function test(){ // 宣告函式
+	alert("hello"); //
+}
+*/
+
+
+test(); // 呼叫函式
+var test=function(){ // 宣告变数test是一个函式; 函式以宣告变数的方式建立  因为只有宣告变数的动作会被提升, 函式的建立不会被提升 所以会变成以下的样子:
+	alert("hello"); //
+}
+    ↓
+var test; // 宣告变数;
+test(); // 呼叫变数; 现在的变数还没有给定资料, 无法被呼叫;
+test=function(){ // 给定变数的资料, 变数是个函式;
+	alert("hello")
+}
+
+
+</script>
+</head>
+<body>
+</body>
+</html>

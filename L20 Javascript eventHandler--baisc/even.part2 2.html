@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Event 事件处理</title>
+<script type="text/javascript">
+// 任何一个标签都可以撰写事件处理的程式码 名称就是on加事件名称
+// <span onmouseover="this.style.color='red'"; onmouseout="this.style.color='black'">Test</span>
+//用javascript 的程式, 动态的注册事件处理器
+/* onload 叫做 load 事件 把load事件注册在body标签上 它就会侦测 网页的静态内容也就是body的内部是否完全载入
+   如果载入成功 就会触发load事件 并且执行函式init
+*/   
+
+
+function init(){
+	var btn=document.getElementById("btn");
+	/*
+	btn.onclick=function(){
+		alert("clicked");
+	}
+	*/
+	
+	var handler=function(){ // 准备一个事件处理器 (对应事件的函式)
+		alert("clicked");
+	}
+	btn.addEventListener("click" /*事件的名称*/, handler);
+}
+
+
+</script>
+</head>
+<body onload="init()">
+	<button id="btn">Enter</button>
+
+</body>
+</html>

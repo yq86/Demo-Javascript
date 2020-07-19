@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- BOM = Byte Order Mark 定义字节顺序 由于兼容性，带BOM的utf-8在一些browser中显示为乱码。-->
+<meta charset="utf-8"></meta>
+<title>CSS3 Flexbox</title>
+<link href="CSS3-Flexbox-RWD.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+	<nav>
+		<div class="logo">Logo</div>
+		<div class="menu">Menu</div>
+		<div class="user">User</div>
+	</nav>
+	<!-- 
+		RWD(responsive web design) 回应式设计的关键动作: 栏位变化
+		Flex 如何控制栏位的变化?
+		例如: 4栏 > 2栏 > 1栏
+		规划:
+		1200px 以上的规则: 4栏, 固定尺寸
+		500px ~ 1200px 之间的规则: 2栏, 弹性尺寸
+		500px 以下: 1栏, 弹性尺寸
+	-->
+	<main>
+		<div class="item">News 1</div>
+		<div class="item">News 2</div>
+		<div class="item">News 3</div>
+		<div class="item">News 4</div>
+	</main>
+</body>
+</html>  

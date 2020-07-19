@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Canvas</title>
+<script type="text/javascript">
+var cvs,ctx;
+window.onload=function(){
+	cvs=document.getElementById("cvs");
+	ctx=cvs.getContext("2d");
+	/*
+	var img=new Image();
+	img.src="he.jpg";// 载入影像
+	img.onload=function(){ // 注册 load 事件 图片载入完成后 才做绘制 
+		ctx.drawImage(this,0,0,cvs.width,cvs.height);
+	};
+	*/
+};
+function invertColor(){
+	var pixels=ctx.getImageData(0,0,cvs.width,cvs.height);// 这里取得的是 ImageData 物件 它还包含额外的一些资讯
+	var data=pixels.data;// 想要做影像的细节处理 我们必须抓出每一个像素的颜色资讯 ImageData 物件下的 data 属性 它是一个阵列 存放所有的像素资讯
+					 // 一个像素占据4个资料(bytes): r g b a 红 绿 蓝 透明度， 范围是0到255
+	for(var i=0;i<data.length;i+=4){
+		data[i]=255-data[i];
+		data[i+1]=255-data[i+1];
+		data[i+2]=255-data[i+2];	
+	}	
+	ctx.putImageData(pixels,0,0);
+}
+
+function loadFile(input){
+	var file=input.files[0]; // input 物件下面的档案files files 是一个档案物件的阵列
+	var src=URL.createObjectURL(file);
+	var img=new Image();
+	img.src=src;
+	img.onload=function(){
+		ctx.drawImage(this,0,0,cvs.width,cvs.height)
+	}
+
+}
+function saveFile(){
+	var link=document.getElementById("download");// 取得超链接物件
+	link.download="image.jpg"; // 设定超链接的download属性 这个属性就是我们想要指定的档案名称
+	link.href=cvs.toDataURL("image/jpeg");//超链接的网址设定 canvas 物件呼叫toDataURL 指定影像的输出格式jpeg
+	
+	link.click(); //用程式模拟使用者主动触发点击事件
+}
+
+</script>
+</head>
+<body>
+
+<div>
+	<input type="file" onchange="loadFile(this)"></input>
+	<button onclick="saveFile()">Save Picture</button>
+	<a id="download"></a>
+	<button onclick="invertColor();">颜色的反转</button>
+</div>
+<br/>
+<canvas id="cvs"; width=800px; height=600px; style="border:1px solid #000000"></canvas>
+</body>
+</html>
